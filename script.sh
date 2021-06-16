@@ -8,7 +8,5 @@ fi
 function bb {
 filename=$1
 echo $(file -r $(find . -name "$1"))
-$A 'nemnogo slov'
-echo $A
 fi 
 }
